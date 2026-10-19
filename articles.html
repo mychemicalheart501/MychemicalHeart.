@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Artigos // Umbrella Archives</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>☣</text></svg>">
+</head>
+<body>
+
+  <header class="header">
+    <div class="logo-area">
+      <div class="logo-symbol">☣</div>
+      <div>
+        <div class="blog-title">UMBRELLA <span>ARCHIVES</span></div>
+        <div class="blog-tagline">Arquivos Classificados • Nível Ômega</div>
+      </div>
+    </div>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Menu">☰</button>
+
+    <nav class="nav" id="mainNav">
+      <a href="index.html">Home</a>
+      <a href="articles.html" class="active">Artigos</a>
+      <a href="archive.html">Arquivo</a>
+      <a href="about.html">Sobre</a>
+    </nav>
+  </header>
+
+  <div class="container">
+
+    <aside class="sidebar left">
+      <div class="widget">
+        <div class="widget-header">● Status do Sistema</div>
+        <div class="widget-body">
+          <p class="status-online">Online • Acesso Autorizado</p>
+          <p class="terminal-text">Seção: Artigos</p>
+        </div>
+      </div>
+
+      <div class="widget">
+        <div class="widget-header">▸ Categorias</div>
+        <div class="widget-body link-list">
+          <a href="#">→ Relatórios de Campo</a>
+          <a href="#">→ Protocolos</a>
+          <a href="#">→ Pesquisa</a>
+          <a href="#">→ Comunicados</a>
+          <a href="#">→ Notas de Laboratório</a>
+        </div>
+      </div>
+    </aside>
+
+    <main class="content">
+      <div class="page-header">
+        <div class="classified">CLASSIFICADO</div>
+        <h1>Artigos & Relatórios</h1>
+        <p>Documentos completos liberados para leitura.</p>
+      </div>
+
+      <!-- Lista de artigos (pode adicionar mais cards aqui) -->
+      <article class="post-card">
+        <div class="post-card-body">
+          <div class="post-meta">
+            <span>📅 18 Out 2026</span>
+            <span>👤 Admin</span>
+            <span>⏱ 6 min</span>
+          </div>
+          <h2><a href="#">Incidente no Setor D — Relatório Preliminar</a></h2>
+          <p class="post-excerpt">
+            Durante a inspeção de rotina no setor D-12, foram detectadas anomalias nos sensores de contenção...
+          </p>
+          <div class="post-tags">
+            <span class="tag">Relatório</span>
+            <span class="tag">Setor D</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="post-card">
+        <div class="post-card-body">
+          <div class="post-meta">
+            <span>📅 15 Out 2026</span>
+            <span>👤 Admin</span>
+            <span>⏱ 4 min</span>
+          </div>
+          <h2><a href="#">Atualização do Protocolo de Evacuação</a></h2>
+          <p class="post-excerpt">
+            Novas diretrizes foram aprovadas pela diretoria. Todos os funcionários de nível 3 ou superior...
+          </p>
+          <div class="post-tags">
+            <span class="tag">Protocolo</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="post-card">
+        <div class="post-card-body">
+          <div class="post-meta">
+            <span>📅 12 Out 2026</span>
+            <span>👤 Admin</span>
+            <span>⏱ 8 min</span>
+          </div>
+          <h2><a href="#">Notas de Campo: Observações sobre o Sujeito 047</a></h2>
+          <p class="post-excerpt">
+            O sujeito continua apresentando resposta positiva ao composto experimental...
+          </p>
+          <div class="post-tags">
+            <span class="tag">Pesquisa</span>
+            <span class="tag">Laboratório</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="post-card">
+        <div class="post-card-body">
+          <div class="post-meta">
+            <span>📅 05 Out 2026</span>
+            <span>👤 Admin</span>
+            <span>⏱ 5 min</span>
+          </div>
+          <h2><a href="#">Análise de Amostra — Código G-13</a></h2>
+          <p class="post-excerpt">
+            A amostra coletada no setor subterrâneo apresentou mutações inesperadas sob condições de baixa temperatura...
+          </p>
+          <div class="post-tags">
+            <span class="tag">Pesquisa</span>
+            <span class="tag">Amostra</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="post-card">
+        <div class="post-card-body">
+          <div class="post-meta">
+            <span>📅 28 Set 2026</span>
+            <span>👤 Admin</span>
+            <span>⏱ 3 min</span>
+          </div>
+          <h2><a href="#">Memorando: Alteração de Turnos no Laboratório B</a></h2>
+          <p class="post-excerpt">
+            A partir da próxima semana, os turnos noturnos do Laboratório B serão estendidos em duas horas...
+          </p>
+          <div class="post-tags">
+            <span class="tag">Comunicado</span>
+            <span class="tag">Interno</span>
+          </div>
+        </div>
+      </article>
+
+    </main>
+
+    <aside class="sidebar right">
+      <div class="widget">
+        <div class="widget-header">✉ Canal Seguro</div>
+        <div class="widget-body">
+          <p>Receba alertas de novos documentos.</p>
+          <input type="email" placeholder="seu@email.com" 
+                 style="width:100%;padding:0.5rem;margin:0.5rem 0;background:#0a0a0a;border:1px solid var(--border);color:var(--text);border-radius:3px;font-size:0.85rem;">
+          <button class="btn" style="width:100%;">Inscrever-se</button>
+        </div>
+      </div>
+
+      <div class="widget">
+        <div class="widget-header"># Tags Ativas</div>
+        <div class="widget-body">
+          <div class="post-tags">
+            <span class="tag">Relatório</span>
+            <span class="tag">Protocolo</span>
+            <span class="tag">Pesquisa</span>
+            <span class="tag">Comunicado</span>
+            <span class="tag">Laboratório</span>
+          </div>
+        </div>
+      </div>
+    </aside>
+  </div>
+
+  <footer class="footer">
+    <p>
+      © 2026 Umbrella Archives • Conteúdo ficcional • 
+      <span class="text-accent">Não afiliado à Capcom</span>
+    </p>
+  </footer>
+
+  <script src="config.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
